@@ -30,6 +30,11 @@ function clickToCopy() {
 
 function onlyfans() {
     window.location.href="https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+
+    const punheta = async() => {
+        document.getElementById("punheteiros-num").innerHTML = + 1;
+    }
+    punheta();
 }
 
 function instagram() {
