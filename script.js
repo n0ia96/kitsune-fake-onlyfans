@@ -28,13 +28,30 @@ function clickToCopy() {
     toolTip();
 }
 
+window.onload = function() {
+    var punho = new XMLHttpRequest();
+    punho.open("GET", "https://api.countapi.xyz/get/kitsune.manzl.pt/punhetas");
+    punho.responseType = "json";
+    punho.onload = function() {
+        let punheteiros = fetch("https://api.countapi.xyz/get/kitsune.manzl.pt/punhetas")
+        punheteiros.responseType = "json";
+        document.getElementById("punheteiros-num").innerHTML = this.response.value;
+    }
+    punho.send();
+}
+
 function onlyfans() {
     window.location.href="https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 
-    const punheta = async() => {
-        document.getElementById("punheteiros-num").innerHTML = + 1;
+    var punho = new XMLHttpRequest();
+    punho.open("GET", "https://api.countapi.xyz/hit/kitsune.manzl.pt/punhetas");
+    punho.responseType = "json";    
+    punho.onload = function() {
+        let punheteiros = fetch("https://api.countapi.xyz/get/kitsune.manzl.pt/punhetas")
+        punheteiros.responseType = "json";
+        document.getElementById("punheteiros-num").innerHTML = this.response.value;
     }
-    punheta();
+    punho.send();
 }
 
 function instagram() {
