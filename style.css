@@ -901,12 +901,6 @@ body {
         color: rgb(94, 150, 255);
     }
 }
-#domain {
-    display: inline-block;
-    white-space: nowrap;
-
-    text-decoration: none;
-}
 #domain:visited {
     text-decoration: none;
     color: rgb(172, 172, 172);
