@@ -30,10 +30,10 @@ function clickToCopy() {
 
 window.onload = function() {
     var punho = new XMLHttpRequest();
-    punho.open("GET", "https://api.countapi.xyz/get/n0ia96.github.io/punhetas");
+    punho.open("GET", "https://api.countapi.xyz/get/n0ia96.github.io/b1b9b1a2-af7e-45df-bcac-1e1dc7d29487");
     punho.responseType = "json";
     punho.onload = function() {
-        let punheteiros = fetch("https://api.countapi.xyz/get/n0ia96.github.io/punhetas")
+        let punheteiros = fetch("https://api.countapi.xyz/get/n0ia96.github.io/b1b9b1a2-af7e-45df-bcac-1e1dc7d29487")
         punheteiros.responseType = "json";
         document.getElementById("punheteiros-num").innerHTML = this.response.value;
     }
@@ -44,10 +44,10 @@ function onlyfans() {
     window.location.href="https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 
     var punho = new XMLHttpRequest();
-    punho.open("GET", "https://api.countapi.xyz/hit/n0ia96.github.io/punhetas");
+    punho.open("GET", "https://api.countapi.xyz/hit/n0ia96.github.io/b1b9b1a2-af7e-45df-bcac-1e1dc7d29487");
     punho.responseType = "json";    
     punho.onload = function() {
-        let punheteiros = fetch("https://api.countapi.xyz/get/n0ia96.github.io/punhetas")
+        let punheteiros = fetch("https://api.countapi.xyz/get/n0ia96.github.io/b1b9b1a2-af7e-45df-bcac-1e1dc7d29487")
         punheteiros.responseType = "json";
         document.getElementById("punheteiros-num").innerHTML = this.response.value;
     }
