@@ -6,4 +6,5 @@
 ##### The source code is avaiable to everyone to see and use, but please, __don't forget__ to give credits to me.
 ##### Also, you are free to change whatever you want in the code, let me check what you have in mind, pull this rep and show me what you would change!
 
-## This repository use to be an github page, do to github rules you can only have one active, so this one is deactivated for now. Thank you.
+#
+### This repository use to be an github page, do to github rules you can only have one active, so this one is deactivated for now. Thank you.
