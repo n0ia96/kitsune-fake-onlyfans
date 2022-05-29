@@ -7,4 +7,4 @@
 ##### Also, you are free to change whatever you want in the code, let me check what you have in mind, pull this rep and show me what you would change!
 
 #
-### This repository use to be an github page, do to github rules you can only have one active, so this one is deactivated for now. Thank you.
+### This repository use to be a github page, do to github rules you can only have one page active per user, so this one is deactivated for now. Thank you.
